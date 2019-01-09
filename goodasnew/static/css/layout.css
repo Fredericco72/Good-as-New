@@ -1,0 +1,48 @@
+a {
+  color:#222222;
+  text-decoration:none;
+}
+
+body {
+  font-family:"Helvetica";
+}
+
+h1 {
+  font-size:100px;
+  text-align:center;
+  margin:50px 0px 40px 0px;
+}
+
+.container {
+  margin-left:auto;
+  margin-right:auto;
+  width:600px;
+}
+
+.center-lr {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nav-home {
+  margin:20px 0px;
+}
+
+.nav-home i {
+  width:150px;
+  color: #222222;
+  overflow:none;
+  display:inline;
+}
+
+.nav-home > ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+.nav-home li {
+  display:inline;
+  width:150px;
+  list-style-type:none;
+}

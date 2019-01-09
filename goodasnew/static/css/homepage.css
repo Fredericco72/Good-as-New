@@ -1,0 +1,16 @@
+.main-menu {
+  list-style:none;
+  width:700px;
+  padding:0px;
+}
+
+.menu-item {
+  font-size:70px;
+  width:500px;
+  height:180px;
+  margin-bottom:40px;
+  line-height:180px;
+  text-align:center;
+  border: 3px solid #666666;
+  border-radius: 30px;
+}

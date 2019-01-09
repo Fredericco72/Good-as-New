@@ -1,0 +1,24 @@
+{% load static %}
+
+<html>
+<head>
+  <title>Sale</title>
+
+  <link rel="stylesheet" href="{% static 'css/layout.css' %}?{% now 'U' %}"?>
+  <link rel="stylesheet" href="{% static 'css/sale.css' %}?{% now 'U' %}"?>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body class="center-lr">
+  <div>
+    <h1>Purchase</h1>
+  </div>
+  <div>
+    <form method="POST" class="post-form">{% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+  </div>
+</body>
+</html>

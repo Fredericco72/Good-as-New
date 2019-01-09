@@ -1,0 +1,31 @@
+{% load static %}
+
+<html>
+<head>
+  <title>Sale</title>
+
+  <link rel="stylesheet" href="{% static 'css/layout.css' %}?{% now 'U' %}"?>
+  <link rel="stylesheet" href="{% static 'css/sale.css' %}?{% now 'U' %}"?>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="{% static 'scripts/navigation.js' %}?{% now 'U' %}"></script>
+</head>
+<body class="center-lr">
+<div class="container">
+  <div>
+    <ul class="nav-home">
+    </ul>
+  </div>
+  <div class="wrap">
+    <div class="search">
+      <input type="text" class="searchTerm" placeholder="Search Item">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
